@@ -2,3 +2,5 @@
 - DNS is to convert alphabetical references into a server's IP address, generally for hosting services.
 - Small piece of data sent from a website and stored on the user's computer.
 - Protocol, server name and resource ID.
+
+My work cycle for this assignment included: looking back at some of the small technical things from last week, watching a couple of the videos provided on the course website and linking github.com with github desktop. I also learned and practiced how to push things back and fourth from those two platforms.
