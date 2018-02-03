@@ -9,4 +9,4 @@ This assignment was difficult but rewarding for me, because
 - I learned how to use github desktop which will be really helpful.
 - I also understand, for the most part, how to use atom.
 
-[Screenshot](./screenshot.png)
+![Screenshot](./screenshot.png)
