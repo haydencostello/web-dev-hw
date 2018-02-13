@@ -13,4 +13,4 @@ The Wayback Machine was very interesting, I went to the Disneyland site from 200
 
 My work cycle included going to the course website, following the instructions and referring back to HTML and Markdown shortcut sheets to reduce the time it took for me to complete the assignment.
 
-![screenshot](screenshot.png)
+![screenshot](./images/screenshot.png)
