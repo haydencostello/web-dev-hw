@@ -10,7 +10,7 @@
       div {width:32%;display:inline-block;vertical-align:text-top;}
       table, td, th {
       /* -- Step 16 -- */
-
+        border-collapse: collapse;
 
 
       }
@@ -35,9 +35,9 @@
         <legend>Contact Details</legend>
         <!-- Step 2 (Name) -->
         <p>Name:
-          <input type="First" name="username" id="name-first" />
-          <input type="MI" name="username" id="name-middle" />
-          <input type="Last" name="username" id="name-last" />
+          <input type="First" name="username" id="name-first" placeholder="First" />
+          <input type="MI" name="username" id="name-middle" placeholder="MI" maxlength="3" size="3"/>
+          <input type="Last" name="username" id="name-last" placeholder="Last" />
         </p>
         <!-- Step 3 (E-mail) -->
         <p>E-mail:
@@ -46,7 +46,7 @@
 
         <!-- Step 4 (Date) -->
         <p>Date of Birth:
-          <input type="mm/dd/yyyy"
+          <input type="mm/dd/yyyy" name="birthday" id="DOB" placeholder="mm/dd/yyyy" />
         </p>
 
         <!-- Step 5 ("No" Radio) -->
@@ -140,7 +140,7 @@
             months studying or working in this field.”</p>
 
           <!-- Step 12 (textarea) -->
-          <textarea name="comments" id="textarea">I think my most difficult task will be...</textarea>
+          <textarea name="comments" id="textarea" cols="30" row="2">I think my most difficult task will be...</textarea>
         </div>
       </fieldset>
 
@@ -201,13 +201,17 @@
 
         </table>
         <p>Yes! Sign me up for weekly e-mail alerts.
-          <input id="yes" type="radio" name="newsletter" value="yes" checked>
+          <input id="yes" type="checkbox" name="newsletter" value="yes" checked>
         </br>
         </p>
-
+      <form
+        action="http://www.example.com/subscribe.php"  method="post">
+          <button>
+            <img src="./images/reg-button.png" alt="reg button" width="100" height="25" />
+          </button>
       </form>
     </main>
     <!-- Step 20 -->
-
+    <img src="./images/registration-station.png" alt="Registration Station" title="Register Today!" width="500" height="333" />
   </body>
 </html>
