@@ -153,6 +153,14 @@
       <h3>Offerings and Availability</h3>
       <fieldset>
         <legend></legend>
+      <head>
+        <style>
+          table, th, td {
+            border: 2px solid grey;
+            padding: 5px;
+          }
+        </style>
+      </head>
       <table>
         <tr>
           <th></th>
@@ -179,7 +187,13 @@
           <td>60/60</td>
         </tr>
       </table>
-      
+      <p>
+        Username:
+        <input type="text" name="username" id="test-username" required />
+      </br>
+        Password:
+        <input type="text" name="password" id="test-password" required />
+      </p>
 
 
         <!-- Step 19 -->
@@ -187,7 +201,8 @@
 
         </table>
         <p>Yes! Sign me up for weekly e-mail alerts.
-
+          <input id="yes" type="radio" name="newsletter" value="yes" checked>
+        </br>
         </p>
 
       </form>
