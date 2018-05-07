@@ -1,0 +1,31 @@
+body {
+  background-color: #DDDFD4;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  background-color: rgb(255, 39, 246);
+  padding: 35px;
+  font-family: PermanentMarker-Regualr;
+}
+
+.content {
+
+  width: 100%;
+  display: flex;
+}
+
+main {
+  background-color: #FFAD48;
+  width: 70%;
+  height: 130px;
+  float: left;
+}
+
+aside {
+  background-color: #FFFF00;
+  width: 30%;
+  height: 130px;
+  float: left;
+}
