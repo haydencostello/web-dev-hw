@@ -1,0 +1,30 @@
+@font-face{
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+p {
+font-family: PlayfairDisplay-Regular;
+font-size: 1em;
+margin: 0.5em;
+}
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+h1, p {
+  text-align: center;
+  font-weight: bolder;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+h3 {
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+h4 {
+  text-align: center;
+  font-weight: lighter;
+}
+a:visited {
+  color: blue;
+}

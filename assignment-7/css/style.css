@@ -1,0 +1,10 @@
+body{background-color:gray}
+
+.paragraph-excerpt{background-color:silver}
+.paragraph-excerpt:hover{background-color:silver}
+a:link {
+  color:yellow
+}
+a:hover {
+  color:black
+}
