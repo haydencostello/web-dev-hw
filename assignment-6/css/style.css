@@ -7,7 +7,9 @@ body {
 h1 {
   background-color: rgb(255, 39, 246);
   padding: 35px;
-  font-family: PermanentMarker-Regualr;
+  font-family: PermanentMarker-Regular;
+  margin: 0;
+  color: turquoise;
 }
 
 .content {
@@ -16,16 +18,15 @@ h1 {
   display: flex;
 }
 
-main {
+.orange {
   background-color: #FFAD48;
   width: 70%;
-  height: 130px;
   float: left;
 }
 
-aside {
+.yellow {
   background-color: #FFFF00;
   width: 30%;
-  height: 130px;
+  /*height: 130px;*/
   float: left;
 }

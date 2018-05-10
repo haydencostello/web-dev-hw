@@ -1,0 +1,57 @@
+/* top-left box */
+.woman-box {
+  width: 49%;
+  float: left;
+  border: 1px solid black;
+}
+
+.woman-img {
+  width: 400px;
+}
+
+
+/* top-right box */
+.intro {
+  width: 50%;
+  float: left;
+  border: 1px solid black;
+}
+
+.title-box {
+
+}
+
+.subtitle-box {
+
+  border: 1px solid black;
+}
+
+.honest-box {
+
+  border: 1px solid black;
+
+}
+
+.inside-img {
+  width: 150px;
+  float: left;
+}
+
+.glory-box{
+
+  border: 1px solid black;
+}
+
+.outside-img {
+  width: 150px;
+  float: left;
+}
+
+.whee-box{
+  border: 1px solid black:
+}
+
+.wastebasket-img{
+  width: 150px;
+  float: left;
+}
